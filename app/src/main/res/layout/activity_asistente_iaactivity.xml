@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_asistente_ia"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/txtRespuestaIA"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        android:gravity="top"
+        android:text="@string/bienvenida_ia"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edtPreguntaIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/hint_pregunta_ia"
+        android:inputType="textMultiLine"
+        android:maxLength="300"
+        android:maxLines="4" />
+
+    <Button
+        android:id="@+id/btnPreguntarIA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btn_preguntar_ia" />
+
+</LinearLayout>

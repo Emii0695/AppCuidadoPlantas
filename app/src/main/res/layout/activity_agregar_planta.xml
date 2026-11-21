@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_agregar_planta"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/edtNombreNuevaPlanta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="@string/nombre_planta"
+            android:inputType="textCapWords"
+            android:maxLength="50" />
+
+        <EditText
+            android:id="@+id/edtTipoPlanta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/tipo_planta"
+            android:inputType="textCapWords"
+            android:maxLength="50" />
+
+        <EditText
+            android:id="@+id/edtFrecuenciaRiego"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/frecuencia_riego"
+            android:inputType="number"
+            android:maxLength="3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/pregunta_luz"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgLuz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbSol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/luz_directa" />
+
+            <RadioButton
+                android:id="@+id/rbIndirecta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/luz_indirecta" />
+
+            <RadioButton
+                android:id="@+id/rbSombra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="@string/sombra" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnGuardarPlanta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/guardar_planta" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Cuidado de plantas</string>
+    <string name="bienvenido_a_cuidado_de_plantas">Bienvenido a Cuidado de Plantas</string>
+    <string name="correo_electronico">Correo electrónico</string>
+    <string name="hint_contrasena">Contraseña</string>
+    <string name="btn_ingresar">Ingresar</string>
+    <string name="titulo_registro">Crear cuenta</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_confirmar_contrasena">Confirmar contraseña</string>
+    <string name="pregunta_experiencia">¿Qué experiencia tienes cuidando plantas?</string>
+    <string name="experiencia_principiante">Principiante</string>
+    <string name="experiencia_intermedia">Intermedia</string>
+    <string name="experiencia_avanzada">Avanzada</string>
+    <string name="aceptar_terminos">Acepto los términos y condiciones</string>
+    <string name="btn_registrarse">Registrarse</string>
+
+    <string name="titulo_lista_plantas">Mis plantas</string>
+    <string name="btn_agregar_planta">Agregar planta</string>
+    <string name="ejemplo_nombre_planta">Tulipán rosado</string>
+    <string name="ejemplo_riego_planta">Riego: cada 3 días</string>
+
+    <string name="titulo_agregar_planta">Agregar planta</string>
+    <string name="nombre_planta">Nombre de la planta</string>
+    <string name="tipo_planta">Tipo de planta</string>
+    <string name="frecuencia_riego">Riego cada cuántos días</string>
+    <string name="pregunta_luz">¿Qué tipo de luz necesita?</string>
+    <string name="luz_directa">Sol directo</string>
+    <string name="luz_indirecta">Luz indirecta</string>
+    <string name="sombra">Sombra</string>
+    <string name="guardar_planta">Guardar planta</string>
+
+
+    <string name="titulo_detalle_planta">Detalle de planta</string>
+    <string name="detalle_nombre">Tulipán rosado</string>
+    <string name="detalle_tipo">Tipo: Tulipán</string>
+    <string name="detalle_riego">Riego: cada 3 días</string>
+    <string name="detalle_luz">Luz: sol directo</string>
+    <string name="volver_plantas">Volver a mis plantas</string>
+
+
+    <string name="titulo_asistente_ia">Asistente de plantas</string>
+    <string name="bienvenida_ia">¡Hola! 🌷 Soy tu asistente de plantas. ¿que paciente puedo ayudarte a tratar hoy?</string>
+    <string name="hint_pregunta_ia">Escribe tu pregunta sobre plantas</string>
+    <string name="btn_preguntar_ia">Preguntar</string>
+
+
+
+</resources>

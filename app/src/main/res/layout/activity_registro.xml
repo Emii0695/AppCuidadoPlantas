@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/txtTituloRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/titulo_registro"
+                android:textSize="24sp"
+                android:textAlignment="center"
+                android:layout_marginBottom="24dp" />
+
+
+            <EditText
+                android:id="@+id/edtNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/hint_nombre"
+                android:inputType="textPersonName"
+                android:autofillHints="personName" />
+
+            <EditText
+                android:id="@+id/edtCorreoRegistro"
+                android:textColorHint="#4A4A4A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/correo_electronico"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+
+            <EditText
+                android:id="@+id/edtContrasenaRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/hint_contrasena"
+                android:inputType="textPassword"
+                android:autofillHints="newPassword" />
+
+            <EditText
+                android:id="@+id/edtConfirmarContrasena"
+                android:textColorHint="#4A4A4A"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginBottom="16dp"
+                android:hint="@string/hint_confirmar_contrasena"
+                android:inputType="textPassword"
+                android:autofillHints="newPassword" />
+
+            <TextView
+                android:id="@+id/txtPreguntaExperiencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/pregunta_experiencia"
+                android:textSize="16sp" />
+            <RadioGroup
+                android:id="@+id/rgExperiencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/rbPrincipiante"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="@string/experiencia_principiante" />
+
+                <RadioButton
+                    android:id="@+id/rbIntermedia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="@string/experiencia_intermedia" />
+
+                <RadioButton
+                    android:id="@+id/rbAvanzada"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:text="@string/experiencia_avanzada" />
+
+            </RadioGroup>
+
+            <CheckBox
+                android:id="@+id/chkTerminos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/aceptar_terminos" />
+
+            <Button
+                android:id="@+id/btnRegistrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="24dp"
+                android:text="@string/btn_registrarse" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
