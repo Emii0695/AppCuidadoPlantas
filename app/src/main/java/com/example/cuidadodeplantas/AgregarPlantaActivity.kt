@@ -19,6 +19,11 @@ class AgregarPlantaActivity : AppCompatActivity() {
         val riego = findViewById<EditText>(R.id.edtFrecuenciaRiego)
         val grupoLuz = findViewById<RadioGroup>(R.id.rgLuz)
         val guardar = findViewById<Button>(R.id.btnGuardarPlanta)
+        val volver = findViewById<Button>(R.id.btnVolverLista)
+
+        volver.setOnClickListener {
+            finish()
+        }
 
         guardar.setOnClickListener {
 

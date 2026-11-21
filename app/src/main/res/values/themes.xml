@@ -1,9 +1,20 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.CuidadoDePlantas" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+    <style name="Base.Theme.CuidadoDePlantas"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/verde_plantas</item>
+
     </style>
 
-    <style name="Theme.CuidadoDePlantas" parent="Base.Theme.CuidadoDePlantas" />
+    <style name="Theme.CuidadoDePlantas"
+        parent="Base.Theme.CuidadoDePlantas" />
+
+
+    <style name="BotonPlantas" parent="Widget.Material3.Button">
+        <item name="android:minHeight">48dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+
 </resources>

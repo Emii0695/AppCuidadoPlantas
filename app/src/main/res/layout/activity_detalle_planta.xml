@@ -54,6 +54,34 @@
             android:textSize="16sp"
             android:layout_marginBottom="24dp" />
 
+
+        <Button
+            android:id="@+id/btnEditarPlanta"
+            style="@style/BotonPlantas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/editar_planta" />
+
+
+        <Button
+            android:id="@+id/btnEliminarPlanta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/eliminar_planta" />
+
+        <Button
+            android:id="@+id/btnMarcarPlanta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/marcar_planta" />
+
+
         <Button
             android:id="@+id/btnVolverPlantas"
             android:layout_width="match_parent"

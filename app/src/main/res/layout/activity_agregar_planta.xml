@@ -12,6 +12,7 @@
         android:padding="24dp">
 
         <TextView
+            android:id="@+id/txtTituloAgregarPlanta"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/titulo_agregar_planta"
@@ -54,6 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="@string/pregunta_luz"
+            android:id="@+id/txtPreguntaLuz"
             android:textSize="16sp" />
 
         <RadioGroup
@@ -91,6 +93,17 @@
             android:minHeight="48dp"
             android:layout_marginTop="24dp"
             android:text="@string/guardar_planta" />
+
+
+        <Button
+            android:id="@+id/btnVolverLista"
+            style="@style/BotonPlantas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:minHeight="48dp"
+            android:text="@string/volver_plantas" />
+
 
     </LinearLayout>
 </ScrollView>

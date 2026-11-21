@@ -39,9 +39,15 @@
 
 
     <string name="titulo_asistente_ia">Asistente de plantas</string>
-    <string name="bienvenida_ia">¡Hola! 🌷 Soy tu asistente de plantas. ¿que paciente puedo ayudarte a tratar hoy?</string>
+    <string name="bienvenida_ia">¡Hola! 🌷 Soy tu asistente de plantas. ¿En qué puedo ayudarte con tus plantitas hoy?</string>
     <string name="hint_pregunta_ia">Escribe tu pregunta sobre plantas</string>
     <string name="btn_preguntar_ia">Preguntar</string>
+
+
+    <string name="editar_planta">Editar planta</string>
+    <string name="eliminar_planta">Eliminar planta</string>
+    <string name="marcar_planta">Marcar como regada</string>
+
 
 
 

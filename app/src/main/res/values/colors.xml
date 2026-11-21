@@ -2,4 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Colores de Cuidado de Plantas -->
+    <color name="verde_plantas">#388E3C</color>
+    <color name="verde_oscuro">#1B5E20</color>
+    <color name="verde_claro">#E8F5E9</color>
+    <color name="rosa_plantas">#F48FB1</color>
 </resources>

@@ -7,12 +7,14 @@
     android:padding="24dp">
 
     <TextView
+        android:id="@+id/txtTituloAsistenteIA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/titulo_asistente_ia"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:gravity="center"        android:layout_marginBottom="24dp" />
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
 
     <TextView
         android:id="@+id/txtRespuestaIA"
